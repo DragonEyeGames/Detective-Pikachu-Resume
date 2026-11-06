@@ -29,3 +29,36 @@ html, body {
 #right {
     right:10px;
 }
+
+#contact {
+    bottom:15px;
+    left:15px;
+    position:absolute;
+}
+
+#contact p {
+    font-size:20px;
+    margin-bottom:0px;
+}
+
+#email {
+    margin-top:2px;
+    color:blue;
+    text-decoration:underline;
+}
+
+.amarante-regular {
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+    font-family:Amarante
+}

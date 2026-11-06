@@ -68,6 +68,7 @@ function makeFolder(degrees, text) {
     description.style.width = '100px';
     description.style.textAlign = 'center';
     description.style.fontSize = '30px';
+    description.style.fontFamily='Permanent Marker'
 
     function animateTo(targetBottom) {
         clearInterval(timer);
@@ -223,10 +224,10 @@ function makeFolder(degrees, text) {
 }
 
 let skillsPaper = makeFolder(rotation, 'Skills');
-skillsPaper.innerHTML = '<div style="margin:15px"><p style="color:black">I, Detective Pikachu, have many different skills.</p><p>These are included, but not limited to...</p><ul><li><p>Translating Pokemon Language (fluent in all subclasses)</p></li><li><p>Solving Mysteries (best detective I know)</p></li><li><p>Lookin Nice and Fuzzy!</p></li><li><p>A super cool hat and magnifying glass</p></li><li><p>Sneaking behind enemy lines</p></li></ul><p>I am also a generally likeable character! You should hire me!</p></div>';
+skillsPaper.innerHTML = '<div style="margin:15px"><p style="color:black">I, Detective Pikachu, have many different skills.</p><p>These are included, but not limited to...</p><ul><li><p>Translating Pokemon Language (fluent in all subclasses)</p></li><li><p>Solving Mysteries (best detective I know)</p></li><li><p>Lookin Nice and Fuzzy!</p></li><li><p>A super cool hat and magnifying glass</p></li><li><p>Sneaking behind enemy lines</p></li></ul><p>I am also a generally likeable character!</p></div>';
 
 let experiencePaper = makeFolder(0, 'Experience');
-experiencePaper.innerHTML = '<div style="margin:15px"><p>I am very experienced.</p> <p>I have made appearances in a movie and two games, and I have solved a variety of different unrecorded missions.</p><p>I have solved...</p><ul><li><p>The case of the missing Aipom and rampaging Burmy<p/></li><li><p>Soled the search for Purugly, finding a Magnemite in the process.</p></li><li><p>Discovered the truth behind the Aurora legends and ancient murals.</p></li></ul><p style="margin-bottom:2px">And many more that dont fit on this sheet of paper!</p><p style="margin-top:0px"> Im best in class.</p></div>'
+experiencePaper.innerHTML = '<div style="margin:15px"><p>I am very experienced.</p> <p>I have made appearances in a movie and two games, and I have solved a variety of different unrecorded missions.</p><p>I have solved...</p><ul><li><p>The case of the missing Aipom and rampaging Burmy<p/></li><li><p>Soled the search for Purugly, finding a Magnemite in the process.</p></li><li><p>Discovered the truth behind the Aurora legends and ancient murals.</p></li></ul><p style="margin-bottom:2px">And many more that dont fit on this sheet of paper!</p></div>'
 
 let educationPaper = makeFolder(-rotation, 'Education');
 educationPaper.innerHTML = '<div style="margin:15px"><p>I am a self-taught Pokemon!</p><p>I have an innate ability to understand pokemon, but I taught myself English at a young age.</p><p>I learned how to be a detective by following my mentor.</p><p>Learn through experience. Thats my philosophy.</p></div>'
